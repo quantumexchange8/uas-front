@@ -254,23 +254,13 @@
                                     <li><a href="#">PAGES </a>
                                         <ul class="sub-menu-style">
                                             <li><a href="{{ route('about') }}">About Us</a></li>
-                                            <li><a href="{{ route('cart') }}">cart</a></li>
                                             <li><a href="{{ route('checkout') }}">checkout</a></li>
                                             <li><a href="{{ route('my_account') }}">my_account</a></li>
-                                            <li><a href="{{ route('wishlist') }}">wishlist</a></li>
-                                            <li><a href="{{ route('contact') }}">Contact</a></li>
                                             <li><a href="{{ route('order_tracking') }}">order_tracking</a></li>
-                                            <li><a href="{{ route('login_register') }}">login_register</a></li>
+                                          
                                         </ul>
                                     </li>
-                                    <li><a href="blog.html">BLOG </a>
-                                        <ul class="sub-menu-style">
-                                            <li><a href="blog.html">blog standard </a></li>
-                                            <li><a href="blog-no-sidebar.html">blog no sidebar </a></li>
-                                            <li><a href="blog-right-sidebar.html">blog right sidebar</a></li>
-                                            <li><a href="blog-details.html">blog details</a></li>
-                                        </ul>
-                                    </li>
+                                   
                                    <li><a href="{{ route('contact') }}">Contact</a></li>
                                             
                                 </ul>
@@ -280,13 +270,16 @@
                     <div class="col-lg-3">
                         <div class="header-action header-action-flex pr-20">
                             <div class="same-style-2 same-style-2-white same-style-2-font-dec">
-                                <a href="login-register.html"><i class="icon-user"></i></a>
+                                <a href="{{ route('login_register') }}"><i class="icon-user"></i></a>
+
                             </div>
                             <div class="same-style-2 same-style-2-white same-style-2-font-dec">
-                                <a href="wishlist.html"><i class="icon-heart"></i><span class="pro-count red">03</span></a>
+                                <a href="{{ route('wishlist') }}"><i class="icon-heart"></i><span class="pro-count red">03</span></a>
+
                             </div>
                             <div class="same-style-2 same-style-2-white same-style-2-font-dec header-cart">
-                                <a class="cart-active" href="#">
+                                <a class="cart-active"  >
+                                <a href="{{ route('cart') }}">
                                     <i class="icon-basket-loaded"></i><span class="pro-count red">02</span>
                                     <span class="cart-amount white">$2,435.30</span>
                                 </a>
@@ -300,23 +293,25 @@
     <div class="header-small-device small-device-ptb-1">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-5">
+                <div class="col-3">
                     <div class="mobile-logo">
                         <a href="index.html">
-                            <img alt="" src="assets/images/logo/logo.png">
+                            <img alt="" src="assets/images/logo/UASLogo.png">
                         </a>
                     </div>
                 </div>
                 <div class="col-7">
                     <div class="header-action header-action-flex">
                         <div class="same-style-2 same-style-2-font-inc">
-                            <a href="login-register.html"><i class="icon-user"></i></a>
+                            <a href="{{ route('login_register') }}"><i class="icon-user"></i></a>
                         </div>
                         <div class="same-style-2 same-style-2-font-inc">
-                            <a href="wishlist.html"><i class="icon-heart"></i><span class="pro-count red">03</span></a>
+                            <a href="{{ route('wishlist') }}"><i class="icon-heart"></i><span class="pro-count red">03</span></a>
+
                         </div>
                         <div class="same-style-2 same-style-2-font-inc header-cart">
-                            <a class="cart-active" href="#">
+                            <a class="cart-active" ></a>
+                            <a href="{{ route('cart') }}">
                                 <i class="icon-basket-loaded"></i><span class="pro-count red">02</span>
                             </a>
                         </div>
