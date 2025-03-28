@@ -95,82 +95,154 @@
             </div>
         </div>
     </div>
-    <div class="about-us-area pt-60 pb-120">
+    <div class="about-us-area pt-20 pb-20">
         <div class="container">
             <div class="about-us-content-3 text-center">
-                <h3>Welcome To <span>UAS</span> - one stop service and repair centre </h3>
-                <p>You'll get the right for your needs. </p>
+                <h3>Welcome To <span>UAS</span> - One Stop Service and Repair Centre</h3>
+                <p>You'll get the right solution for your needs.</p>
             </div>
         </div>
     </div>
-    <div class="banner-area pb-90"></div>
+    
 
     <div class="container">
         <div class="row">
-            <!-- First Banner -->
-            <div class="col-lg-8 col-md-8 mb-4">
+            <!-- Banner 1: Printer Repair -->
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="banner-wrap">
-                    <div class="banner-img banner-img-zoom">
-                        <a href="product-details.html">
-                            <img src="assets/images/banner/2.png" alt="Zara Pattern Boxed Underwear" class="img-fluid">
-                        </a>
+                    <div class="banner-img-container">
+                        <img src="assets/images/banner/2.png" alt="Printer Repair" class="banner-img-fixed">
                     </div>
                     <div class="banner-content">
-                        <h2><span>Zara</span> Pattern Boxed <br>Underwear</h2>
-                        <p class="mrg-inc">Stretch, & Fresh Cool</p>
-                        <div class="btn-style-4">
-                            <a class="hover-red" href="product-details.html">Shop Now <i class="icon-arrow-right"></i></a>
-                        </div>
+                        <h5>Printer Repair</h5>
+                        <p>Common Printer Problems Solved</p>
+                      
                     </div>
                 </div>
             </div>
-    
-            <!-- Second Banner -->
-            <div class="col-lg-4 col-md-4 mb-4">
+        
+            <!-- Banner 2: Computer Repair -->
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="banner-wrap">
-                    <div class="banner-img banner-img-zoom">
-                        <a href="product-details.html">
-                            <img src="assets/images/banner/3.png" alt="JATA Super Bass Tech 2.0" class="img-fluid">
-                        </a>
+                    <div class="banner-img-container">
+                        <img src="assets/images/banner/3.png" alt="Computer Repair" class="banner-img-fixed">
                     </div>
                     <div class="banner-content">
-                        <div class="banner-content-top">
-                            <div class="banner-content-brand">
-                                <span>JATA</span>
-                            </div>
-                            <p>Super Bass <br>Tech 2.0</p>
-                        </div>
-                        <h2>Sone Speaker</h2>
+                        <h5>Computer Repair</h5>
+                        <p>Support Any Brand, Any Problem</p>
+                    
                     </div>
                 </div>
             </div>
-    
-            <!-- Third Banner -->
-            <div class="col-lg-4 col-md-4 mb-4">
+        
+            <!-- Banner 3: Ink Refill Promotion -->
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="banner-wrap">
-                    <div class="banner-img banner-img-zoom">
-                        <a href="product-details.html">
-                            <img src="assets/images/banner/1.png" alt="Product Image" class="img-fluid">
-                        </a>
+                    <div class="banner-img-container">
+                        <img src="assets/images/banner/1.png" alt="Ink Refill Offer" class="banner-img-fixed">
                     </div>
                     <div class="banner-content">
-                        <h3>Special Offer</h3>
-                        <p>Limited Time Only</p>
-                        <div class="btn-style-4">
-                            <a class="hover-red" href="product-details.html">Shop Now <i class="icon-arrow-right"></i></a>
-                        </div>
+                        <h5>Ink Refills While You Wait</h5>
+                        <p>Save Time, Save Money, Save the Planet</p>
+                     
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="product-categories-area pb-20">
+            <div class="container">
+                <div class="section-title-6 section-title-6-xs mt-20 mb-20 text-center">
+                    <h2>Popular Categories</h2>
+                </div>
+                <div class="d-flex flex-wrap justify-content-center gap-12 category-row">
     
-    <div class="product-area pb-120">
+                    <!-- Category 1 -->
+                    <div class="text-center">
+                        <div class="category-circle">
+                            <a href="shop.html">
+                                <img src="assets/images/CHome.png" alt="Home & Entertainment">
+                              
+                            </a>
+                        </div>
+                        <p class="mt-2">Home & Entertainment</p>
+                    </div>
+        
+                    <!-- Category 2 -->
+                    <div class="text-center">
+                        <div class="category-circle">
+                            <a href="shop.html">
+                                <img src="assets/images/CSpare.png" alt="Spare Parts">
+                               
+                            </a>
+                        </div>
+                        <p class="mt-2">Spare Parts</p>
+                    </div>
+        
+                    <!-- Category 3 -->
+                    <div class="text-center">
+                        <div class="category-circle">
+                            <a href="shop.html">
+                                <img src="assets/images/CPrinter.png" alt="Printer">
+                                
+                            </a>
+                        </div>
+                        <p class="mt-2">Printer</p>
+                    </div>
+        
+                    <!-- Category 4 -->
+                    <div class="text-center">
+                        <div class="category-circle">
+                            <a href="shop.html">
+                                <img src="assets/images/CPrinterService.png" alt="Printer Service">
+                                
+                            </a>
+                        </div>
+                        <p class="mt-2">Printer Service</p>
+                    </div>
+        
+                    <!-- Category 5 -->
+                    <div class="text-center">
+                        <div class="category-circle">
+                            <a href="shop.html">
+                                <img src="assets/images/CRemanufactured.png" alt="Ink Cartridge">
+                              
+                            </a>
+                        </div>
+                        <p class="mt-2">Ink Cartridge</p>
+                    </div>
+        
+                    <!-- Category 6 -->
+                    <div class="text-center">
+                        <div class="category-circle">
+                            <a href="shop.html">
+                                <img src="assets/images/CHealthCare.png" alt="Health Care">
+                               
+                            </a>
+                        </div>
+                        <p class="mt-2">Health Care</p>
+                    </div>
+        
+                    <!-- Category 7 -->
+                    <div class="text-center">
+                        <div class="category-circle">
+                            <a href="shop.html">
+                                <img src="assets/images/CConsummable.png" alt="Consumables">
+                               
+                            </a>
+                        </div>
+                        <p class="mt-2">Consumables</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    <div class="product-area mt-0 mb-20">
         <div class="container">
-            <div class="section-title-6 section-title-6-xs mb-25 text-center">
+            <div class="section-title-6 section-title-6-xs mb-20 text-center">
                 <h2>best seller in last month</h2>
             </div>
-            <div class="tab-style-9 nav mb-60">
+            <div class="tab-style-9 nav mb-20">
                 <a class="active" href="#product-6" data-bs-toggle="tab">Top 20 </a>
                 <a href="#product-7" data-bs-toggle="tab"> Electronic </a>
                 <a href="#product-8" data-bs-toggle="tab">Apparel </a>
@@ -2252,1068 +2324,9 @@
             </div>
         </div>
     </div>
-    <div class="product-categories-area pb-60">
-        <div class="container">
-            <div class="section-title-6 section-title-6-xs mb-60 text-center">
-                <h2>popular categories</h2>
-            </div>
-            <div class="product-categories-slider-3 nav-style-3">
-                <div class="product-plr-1">
-                    <div class="single-product-wrap mb-50">
-                        <div class="product-img product-img-border border-blue mb-20">
-                            <a href="shop.html">
-                                <img src="assets/images/product/product-50.png" alt="">
-                            </a>
-                        </div>
-                        <div class="product-content-categories-2 product-content-blue text-center">
-                            <h5><a href="shop.html">Fashion</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-plr-1">
-                    <div class="single-product-wrap mb-50">
-                        <div class="product-img product-img-border border-blue mb-20">
-                            <a href="shop.html">
-                                <img src="assets/images/product/product-89.png" alt="">
-                            </a>
-                        </div>
-                        <div class="product-content-categories-2 product-content-blue text-center">
-                            <h5><a href="shop.html">pet supplies</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-plr-1">
-                    <div class="single-product-wrap mb-50">
-                        <div class="product-img product-img-border border-blue mb-20">
-                            <a href="shop.html">
-                                <img src="assets/images/product/product-51.png" alt="">
-                            </a>
-                        </div>
-                        <div class="product-content-categories-2 product-content-blue text-center">
-                            <h5><a href="shop.html">Electronic</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-plr-1">
-                    <div class="single-product-wrap mb-50">
-                        <div class="product-img product-img-border border-blue mb-20">
-                            <a href="shop.html">
-                                <img src="assets/images/product/product-90.png" alt="">
-                            </a>
-                        </div>
-                        <div class="product-content-categories-2 product-content-blue text-center">
-                            <h5><a href="shop.html">kid clothes</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-plr-1">
-                    <div class="single-product-wrap mb-50">
-                        <div class="product-img product-img-border border-blue mb-20">
-                            <a href="shop.html">
-                                <img src="assets/images/product/product-52.png" alt="">
-                            </a>
-                        </div>
-                        <div class="product-content-categories-2 product-content-blue text-center">
-                            <h5><a href="shop.html">computer</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-plr-1">
-                    <div class="single-product-wrap mb-50">
-                        <div class="product-img product-img-border border-blue mb-20">
-                            <a href="shop.html">
-                                <img src="assets/images/product/product-91.png" alt="">
-                            </a>
-                        </div>
-                        <div class="product-content-categories-2 product-content-blue text-center">
-                            <h5><a href="shop.html">smart home</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-plr-1">
-                    <div class="single-product-wrap mb-50">
-                        <div class="product-img product-img-border border-blue mb-20">
-                            <a href="shop.html">
-                                <img src="assets/images/product/product-53.png" alt="">
-                            </a>
-                        </div>
-                        <div class="product-content-categories-2 product-content-blue text-center">
-                            <h5><a href="shop.html">beauty</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-plr-1">
-                    <div class="single-product-wrap mb-50">
-                        <div class="product-img product-img-border border-blue mb-20">
-                            <a href="shop.html">
-                                <img src="assets/images/product/product-92.png" alt="">
-                            </a>
-                        </div>
-                        <div class="product-content-categories-2 product-content-blue text-center">
-                            <h5><a href="shop.html">car parts</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-plr-1">
-                    <div class="single-product-wrap mb-50">
-                        <div class="product-img product-img-border border-blue mb-20">
-                            <a href="shop.html">
-                                <img src="assets/images/product/product-54.png" alt="">
-                            </a>
-                        </div>
-                        <div class="product-content-categories-2 product-content-blue text-center">
-                            <h5><a href="shop.html">sport</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-plr-1">
-                    <div class="single-product-wrap mb-50">
-                        <div class="product-img product-img-border border-blue mb-20">
-                            <a href="shop.html">
-                                <img src="assets/images/product/product-93.png" alt="">
-                            </a>
-                        </div>
-                        <div class="product-content-categories-2 product-content-blue text-center">
-                            <h5><a href="shop.html">gym equipments</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-plr-1">
-                    <div class="single-product-wrap mb-50">
-                        <div class="product-img product-img-border border-blue mb-20">
-                            <a href="shop.html">
-                                <img src="assets/images/product/product-55.png" alt="">
-                            </a>
-                        </div>
-                        <div class="product-content-categories-2 product-content-blue text-center">
-                            <h5><a href="shop.html">baby</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-plr-1">
-                    <div class="single-product-wrap mb-50">
-                        <div class="product-img product-img-border border-blue mb-20">
-                            <a href="shop.html">
-                                <img src="assets/images/product/product-94.png" alt="">
-                            </a>
-                        </div>
-                        <div class="product-content-categories-2 product-content-blue text-center">
-                            <h5><a href="shop.html">infant</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-plr-1">
-                    <div class="single-product-wrap mb-50">
-                        <div class="product-img product-img-border border-blue mb-20">
-                            <a href="shop.html">
-                                <img src="assets/images/product/product-52.png" alt="">
-                            </a>
-                        </div>
-                        <div class="product-content-categories-2 product-content-blue text-center">
-                            <h5><a href="shop.html">computer</a></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="product-plr-1">
-                    <div class="single-product-wrap mb-50">
-                        <div class="product-img product-img-border border-blue mb-20">
-                            <a href="shop.html">
-                                <img src="assets/images/product/product-50.png" alt="">
-                            </a>
-                        </div>
-                        <div class="product-content-categories-2 product-content-blue text-center">
-                            <h5><a href="shop.html">Fashion</a></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="deal-area">
-        <div class="container">
-            <div class="deal-bg-color">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="deal-content-2 pl-50">
-                            <span>hot deal</span>
-                            <h2>
-                                <span>50% SALE OFF</span> Norda QLED TV
-                            </h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="deal-content-2 pl-35">
-                            <p>Discover our collection with leather simple backpacks. Less is more never out trend</p>
-                            <div class="deal-btn-2">
-                                <a href="product-details.html">Shop now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-12">
-                        <div class="deal-img">
-                            <a href="product-details.html"><img src="assets/images/product/deal-product.png" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="product-area pt-115 pb-120">
-        <div class="container">
-            <div class="section-title-6 section-title-6-xs mb-60 text-center">
-                <h2>Sugguest today</h2>
-            </div>
-            <div class="row">
-                <div class="custom-col-5">
-                    <div class="single-product-wrap mb-60">
-                        <div class="product-img product-img-zoom mb-15">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/product-62.jpg" alt="">
-                            </a>
-                            <div class="product-action-2 tooltip-style-2">
-                                <button title="Wishlist"><i class="icon-heart"></i></button>
-                                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
-                                <button title="Compare"><i class="icon-refresh"></i></button>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Mini Protector</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                </div>
-                                <span>(4)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span>$19.98 </span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">USoffice</a></span>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3 product-content-position-2 pro-position-2-padding-dec">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Mini Protector</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                </div>
-                                <span>(4)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span>$19.98 </span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">USoffice</a></span>
-                            </div>
-                            <div class="pro-add-to-cart-2">
-                                <button title="Add to Cart">Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="custom-col-5">
-                    <div class="single-product-wrap mb-60">
-                        <div class="product-img product-img-zoom mb-15">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/product-63.jpg" alt="">
-                            </a>
-                            <div class="product-action-2 tooltip-style-2">
-                                <button title="Wishlist"><i class="icon-heart"></i></button>
-                                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
-                                <button title="Compare"><i class="icon-refresh"></i></button>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Norda Coolpix Camera</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(2)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$26.50 </span>
-                                <span class="old-price">$45.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">Electrone</a></span>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3 product-content-position-2 pro-position-2-padding-dec">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Norda Coolpix Camera</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(2)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$26.50 </span>
-                                <span class="old-price">$45.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">Electrone</a></span>
-                            </div>
-                            <div class="pro-add-to-cart-2">
-                                <button title="Add to Cart">Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="custom-col-5">
-                    <div class="single-product-wrap mb-60">
-                        <div class="product-img product-img-zoom mb-15">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/product-64.jpg" alt="">
-                            </a>
-                            <div class="product-action-2 tooltip-style-2">
-                                <button title="Wishlist"><i class="icon-heart"></i></button>
-                                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
-                                <button title="Compare"><i class="icon-refresh"></i></button>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Norda Phone 6S 64 GB</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(6)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$43.50 </span>
-                                <span class="old-price">$52.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">Electrone</a></span>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3 product-content-position-2 pro-position-2-padding-dec">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Norda Phone 6S 64 GB</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(6)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$43.50 </span>
-                                <span class="old-price">$52.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">Electrone</a></span>
-                            </div>
-                            <div class="pro-add-to-cart-2">
-                                <button title="Add to Cart">Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="custom-col-5">
-                    <div class="single-product-wrap mb-60">
-                        <div class="product-img product-img-zoom mb-15">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/product-65.jpg" alt="">
-                            </a>
-                            <div class="product-action-2 tooltip-style-2">
-                                <button title="Wishlist"><i class="icon-heart"></i></button>
-                                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
-                                <button title="Compare"><i class="icon-refresh"></i></button>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Norda Mobile Tab A</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(3)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$123.50  </span>
-                                <span class="old-price">$152.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">USoffice</a></span>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3 product-content-position-2 pro-position-2-padding-dec">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Norda Mobile Tab A</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(3)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$123.50 </span>
-                                <span class="old-price">$152.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">USoffice</a></span>
-                            </div>
-                            <div class="pro-add-to-cart-2">
-                                <button title="Add to Cart">Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="custom-col-5">
-                    <div class="single-product-wrap mb-60">
-                        <div class="product-img product-img-zoom mb-15">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/product-66.jpg" alt="">
-                            </a>
-                            <div class="product-action-2 tooltip-style-2">
-                                <button title="Wishlist"><i class="icon-heart"></i></button>
-                                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
-                                <button title="Compare"><i class="icon-refresh"></i></button>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">DJ Spark II Quadcopter</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star "></i>
-                                </div>
-                                <span>(1)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span>$86.75 </span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">Electrone</a></span>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3 product-content-position-2 pro-position-2-padding-dec">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">DJ Spark II Quadcopter</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star "></i>
-                                </div>
-                                <span>(1)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span>$86.75 </span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">Electrone</a></span>
-                            </div>
-                            <div class="pro-add-to-cart-2">
-                                <button title="Add to Cart">Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="custom-col-5">
-                    <div class="single-product-wrap mb-60">
-                        <div class="product-img product-img-zoom mb-15">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/product-67.jpg" alt="">
-                            </a>
-                            <div class="product-action-2 tooltip-style-2">
-                                <button title="Wishlist"><i class="icon-heart"></i></button>
-                                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
-                                <button title="Compare"><i class="icon-refresh"></i></button>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Brown T-shirt</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                </div>
-                                <span>(4)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span>$19.98 </span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">jetaposhop</a></span>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3 product-content-position-2 pro-position-2-padding-dec">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Brown T-shirt</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                </div>
-                                <span>(4)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span>$19.98 </span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">jetaposhop</a></span>
-                            </div>
-                            <div class="pro-add-to-cart-2">
-                                <button title="Add to Cart">Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="custom-col-5">
-                    <div class="single-product-wrap mb-60">
-                        <div class="product-img product-img-zoom mb-15">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/product-68.jpg" alt="">
-                            </a>
-                            <div class="product-action-2 tooltip-style-2">
-                                <button title="Wishlist"><i class="icon-heart"></i></button>
-                                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
-                                <button title="Compare"><i class="icon-refresh"></i></button>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Herchoe Backpack</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(2)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$26.50 </span>
-                                <span class="old-price">$45.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">olabear.com</a></span>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3 product-content-position-2 pro-position-2-padding-dec">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Herchoe Backpack</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(2)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$26.50 </span>
-                                <span class="old-price">$45.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">olabear.com</a></span>
-                            </div>
-                            <div class="pro-add-to-cart-2">
-                                <button title="Add to Cart">Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="custom-col-5">
-                    <div class="single-product-wrap mb-60">
-                        <div class="product-img product-img-zoom mb-15">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/product-69.jpg" alt="">
-                            </a>
-                            <div class="product-action-2 tooltip-style-2">
-                                <button title="Wishlist"><i class="icon-heart"></i></button>
-                                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
-                                <button title="Compare"><i class="icon-refresh"></i></button>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Adidas Grey Sport Sneaker</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(6)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$43.50 </span>
-                                <span class="old-price">$52.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">olabear.com</a></span>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3 product-content-position-2 pro-position-2-padding-dec">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Adidas Grey Sport Sneaker</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(6)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$43.50 </span>
-                                <span class="old-price">$52.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">olabear.com</a></span>
-                            </div>
-                            <div class="pro-add-to-cart-2">
-                                <button title="Add to Cart">Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="custom-col-5">
-                    <div class="single-product-wrap mb-60">
-                        <div class="product-img product-img-zoom mb-15">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/product-70.jpg" alt="">
-                            </a>
-                            <div class="product-action-2 tooltip-style-2">
-                                <button title="Wishlist"><i class="icon-heart"></i></button>
-                                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
-                                <button title="Compare"><i class="icon-refresh"></i></button>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Herchose White Duffles</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(3)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$123.50  </span>
-                                <span class="old-price">$152.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">etaposhop</a></span>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3 product-content-position-2 pro-position-2-padding-dec">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Herchose White Duffles</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(3)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$123.50 </span>
-                                <span class="old-price">$152.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">etaposhop</a></span>
-                            </div>
-                            <div class="pro-add-to-cart-2">
-                                <button title="Add to Cart">Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="custom-col-5">
-                    <div class="single-product-wrap mb-60">
-                        <div class="product-img product-img-zoom mb-15">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/product-71.jpg" alt="">
-                            </a>
-                            <div class="product-action-2 tooltip-style-2">
-                                <button title="Wishlist"><i class="icon-heart"></i></button>
-                                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
-                                <button title="Compare"><i class="icon-refresh"></i></button>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Rayban Round Sunglasses</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star "></i>
-                                </div>
-                                <span>(1)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span>$86.75 </span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">sunglassjp</a></span>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3 product-content-position-2 pro-position-2-padding-dec">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Rayban Round Sunglasses</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star "></i>
-                                </div>
-                                <span>(1)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span>$86.75 </span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">sunglassjp</a></span>
-                            </div>
-                            <div class="pro-add-to-cart-2">
-                                <button title="Add to Cart">Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="custom-col-5">
-                    <div class="single-product-wrap mb-60">
-                        <div class="product-img product-img-zoom mb-15">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/product-72.jpg" alt="">
-                            </a>
-                            <div class="product-action-2 tooltip-style-2">
-                                <button title="Wishlist"><i class="icon-heart"></i></button>
-                                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
-                                <button title="Compare"><i class="icon-refresh"></i></button>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Comet Rice Cooker</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                </div>
-                                <span>(4)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span>$19.98 </span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">homeuk</a></span>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3 product-content-position-2 pro-position-2-padding-dec">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Comet Rice Cooker</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                </div>
-                                <span>(4)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span>$19.98 </span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">homeuk</a></span>
-                            </div>
-                            <div class="pro-add-to-cart-2">
-                                <button title="Add to Cart">Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="custom-col-5">
-                    <div class="single-product-wrap mb-60">
-                        <div class="product-img product-img-zoom mb-15">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/product-73.jpg" alt="">
-                            </a>
-                            <div class="product-action-2 tooltip-style-2">
-                                <button title="Wishlist"><i class="icon-heart"></i></button>
-                                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
-                                <button title="Compare"><i class="icon-refresh"></i></button>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Ikea Set 24 Knifes</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(2)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$26.50 </span>
-                                <span class="old-price">$45.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">IKEASG</a></span>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3 product-content-position-2 pro-position-2-padding-dec">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Ikea Set 24 Knifes</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(2)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$26.50 </span>
-                                <span class="old-price">$45.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">IKEASG</a></span>
-                            </div>
-                            <div class="pro-add-to-cart-2">
-                                <button title="Add to Cart">Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="custom-col-5">
-                    <div class="single-product-wrap mb-60">
-                        <div class="product-img product-img-zoom mb-15">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/product-74.jpg" alt="">
-                            </a>
-                            <div class="product-action-2 tooltip-style-2">
-                                <button title="Wishlist"><i class="icon-heart"></i></button>
-                                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
-                                <button title="Compare"><i class="icon-refresh"></i></button>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Pack 10 Utensils</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(6)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$43.50 </span>
-                                <span class="old-price">$52.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">IKEASG</a></span>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3 product-content-position-2 pro-position-2-padding-dec">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Pack 10 Utensils</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(6)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$43.50 </span>
-                                <span class="old-price">$52.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">IKEASG</a></span>
-                            </div>
-                            <div class="pro-add-to-cart-2">
-                                <button title="Add to Cart">Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="custom-col-5">
-                    <div class="single-product-wrap mb-60">
-                        <div class="product-img product-img-zoom mb-15">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/product-75.jpg" alt="">
-                            </a>
-                            <div class="product-action-2 tooltip-style-2">
-                                <button title="Wishlist"><i class="icon-heart"></i></button>
-                                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
-                                <button title="Compare"><i class="icon-refresh"></i></button>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">White Plastic Chair</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(3)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$123.50  </span>
-                                <span class="old-price">$152.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">homeuk</a></span>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3 product-content-position-2 pro-position-2-padding-dec">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">White Plastic Chair</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star gray"></i>
-                                    <i class="icon_star gray"></i>
-                                </div>
-                                <span>(3)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span class="new-price">$123.50 </span>
-                                <span class="old-price">$152.85</span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">homeuk</a></span>
-                            </div>
-                            <div class="pro-add-to-cart-2">
-                                <button title="Add to Cart">Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="custom-col-5">
-                    <div class="single-product-wrap mb-60">
-                        <div class="product-img product-img-zoom mb-15">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/product-76.jpg" alt="">
-                            </a>
-                            <div class="product-action-2 tooltip-style-2">
-                                <button title="Wishlist"><i class="icon-heart"></i></button>
-                                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
-                                <button title="Compare"><i class="icon-refresh"></i></button>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Black Leather Chair</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star "></i>
-                                </div>
-                                <span>(1)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span>$86.75 </span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">homeuk</a></span>
-                            </div>
-                        </div>
-                        <div class="product-content-wrap-3 product-content-position-2 pro-position-2-padding-dec">
-                            <h3 class="mrg-none"><a class="blue" href="product-details.html">Black Leather Chair</a></h3>
-                            <div class="product-rating-wrap-2">
-                                <div class="product-rating-4">
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star"></i>
-                                    <i class="icon_star "></i>
-                                </div>
-                                <span>(1)</span>
-                            </div>
-                            <div class="product-price-4">
-                                <span>$86.75 </span>
-                            </div>
-                            <div class="product-author">
-                                <span>Seller: <a href="#">homeuk</a></span>
-                            </div>
-                            <div class="pro-add-to-cart-2">
-                                <button title="Add to Cart">Add To Cart</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="more-product-btn text-center">
-                <a href="shop.html">More Product</a>
-            </div>
-        </div>
-    </div>
-    <div class="about-us-area bg-gray-8 pt-115 pb-115">
+   
+  
+    <div class="about-us-area bg-gray-8 pt-115 pb-120">
         <div class="container">
             <div class="about-us-content-4">
                 <div class="about-us-content-4-title">
