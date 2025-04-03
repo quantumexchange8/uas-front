@@ -4,7 +4,7 @@
         <div class="breadcrumb-content text-center">
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="{{ route('homepage') }}">HOME</a></li>
                 </li>
                 <li class="active">Cart Page </li>
             </ul>

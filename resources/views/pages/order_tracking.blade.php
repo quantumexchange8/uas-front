@@ -1,5 +1,17 @@
  <!-- order tracking start -->
  <x-app-layout>
+    <div class="breadcrumb-area bg-gray">
+        <div class="container">
+            <div class="breadcrumb-content text-center">
+                <ul>
+                    <li>
+                        <a href="{{ route('homepage') }}">HOME</a></li>
+                    </li>
+                    <li class="active">Track Order </li>
+                </ul>
+            </div>
+        </div>
+    </div>
  <div class="order-tracking-area pt-110 pb-120">
     <div class="container">
         <div class="row">

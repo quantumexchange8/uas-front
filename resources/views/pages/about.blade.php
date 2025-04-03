@@ -1,4 +1,16 @@
 <x-app-layout>
+    <div class="breadcrumb-area bg-gray">
+        <div class="container">
+            <div class="breadcrumb-content text-center">
+                <ul>
+                    <li>
+                        <a href="{{ route('homepage') }}">HOME</a></li>
+                    </li>
+                    <li class="active">About Us </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 <div class="about-us-area bg-gray-8 pt-115 pb-115">
     <div class="container">
         <div class="about-us-content-4">

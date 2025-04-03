@@ -175,7 +175,7 @@
             <div class="breadcrumb-content text-center">
                 <ul>
                     <li>
-                        <li><a href="{{ route('homepage') }}">HOME</a></li>
+                        <a href="{{ route('homepage') }}">HOME</a></li>
                     </li>
                     <li class="active">Shop </li>
                 </ul>

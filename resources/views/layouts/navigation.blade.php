@@ -162,7 +162,7 @@
                         <div class="categori-search-wrap categori-search-wrap-modify-3">
                             <div class="categori-style-1">
                                 <select class="nice-select nice-select-style-1">
-                                    <option>All Categories </option>
+                                    <option>Search by  </option>
                                     <option>Home & Entertainment </option>
                                     <option>Spare Parts</option>
                                     <option>Printer</option>
@@ -209,7 +209,8 @@
                                         <li><a href="shop.html"><i class="icon-wrench"></i> Printer Service & Repair</a></li>
                                         <li><a href="shop.html"><i class="icon-drop"></i> Remanufactured Ink Cartridge Services</a></li>
                                         <li><a href="shop.html"><i class="icon-heart"></i> Health Care Products</a></li>
-                                        <li><a href="shop.html"><i class="icon-bubbles"></i> Consumables</a></li>
+                                        <li><a href="{{ route('consummable') }}"><i class="icon-bubbles"></i> Consumables</a></li>
+
                                         
                                         
                                     </ul>
