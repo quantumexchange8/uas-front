@@ -66,7 +66,12 @@
         <script src="{{ asset('assets/js/plugins/easyzoom.js') }}"></script>
         <script src="{{ asset('assets/js/plugins/scrollup.js') }}"></script>
         <script src="{{ asset('assets/js/plugins/ajax-mail.js') }}"></script>
+
+
         <!-- Main JS -->
         <script src="{{ asset('assets/js/main.js') }}"></script>
+
+        @stack('scripts')
+
     </body>
 </html>
