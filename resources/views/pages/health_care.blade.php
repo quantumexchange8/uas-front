@@ -53,7 +53,7 @@
                         <li>
                             <a href="{{ route('homepage') }}">HOME</a></li>
                         </li>
-                        <li class="active">Consummable </li>
+                        <li class="active">Health Care </li>
                     </ul>
                 </div>
             </div>
@@ -95,77 +95,49 @@
                                     <div class="row">
                                         <!-- Product 1 -->
                                       <!-- 图形卡片商品 (shop-1) -->
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product-item" data-category="compatible">
-    <div class="single-product-wrap mb-35">
-        <div class="product-img product-img-zoom mb-15">
-            <a href="product-details.html">
-                <img src="assets/images/product/product-13.jpg" alt="">
-            </a>
-            <div class="product-action-2 tooltip-style-2">
-                <button title="Wishlist"><i class="icon-heart"></i></button>
-                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
-                <button title="Compare"><i class="icon-refresh"></i></button>
-            </div>
-        </div>
-        <div class="product-content-wrap-2 text-center">
-            <div class="product-rating-wrap">
-                <div class="product-rating">
-                    <i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star gray"></i>
-                </div>
-                <span>(2)</span>
-            </div>
-            <h3><a href="product-details.html">UAS Ribbon ELQ-2170/2180/2190</a></h3>
-            <div class="product-price-2">
-                <span>RM35.00</span>
-            </div>
-            <div class="pro-add-to-cart mt-10">
-                <button title="Add to Cart">Add To Cart</button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- no record-->
-<div id="no-record-message" style="display: none; width: 100%; text-align: center; padding: 40px;">
-    <h4>No record found.</h4>
-</div>
+
+                        <!-- no record-->
+                        <div id="no-record-message" style="display: none; width: 100%; text-align: center; padding: 40px;">
+                            <h4>No record found.</h4>
+                        </div>
 
 
                                     
                                      
                                     
-                                    </div>
+                        </div>
                                     
+        </div>
+        <div id="shop-2" class="tab-pane">
+            <div class="shop-list-wrap mb-30">
+                <div class="row">
+                    <!-- Compatible product -->
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product-item" data-category="compatible">
+                        <div class="single-product-wrap mb-35">
+                            <h3><a href="#">UAS Ribbon ELQ-2170/2180/2190</a></h3>
+                            <div class="pro-list-price">
+                                <span class="new-price">RM35.00</span>
+                                <span class="old-price">RM45.00</span>
+                            </div>
+                            <div class="product-list-rating-wrap">
+                                <div class="product-list-rating">
+                                    <i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star gray"></i><i class="icon_star gray"></i>
                                 </div>
-                                <div id="shop-2" class="tab-pane">
-                                    <div class="shop-list-wrap mb-30">
-                                        <div class="row">
-                                            <!-- Compatible product -->
-                                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product-item" data-category="compatible">
-                                                <div class="single-product-wrap mb-35">
-                                                    <h3><a href="#">UAS Ribbon ELQ-2170/2180/2190</a></h3>
-                                                    <div class="pro-list-price">
-                                                        <span class="new-price">RM35.00</span>
-                                                        <span class="old-price">RM45.00</span>
-                                                    </div>
-                                                    <div class="product-list-rating-wrap">
-                                                        <div class="product-list-rating">
-                                                            <i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star gray"></i><i class="icon_star gray"></i>
-                                                        </div>
-                                                        <span>(3)</span>
-                                                    </div>
-                                                    <p>This is a compatible consumable product.</p>
-                                                    <div class="product-list-action">
-                                                        <button title="Add To Cart"><i class="icon-basket-loaded"></i></button>
-                                                        <button title="Wishlist"><i class="icon-heart"></i></button>
-                                                        <button title="Compare"><i class="icon-refresh"></i></button>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                <span>(3)</span>
+                            </div>
+                            <p>This is a compatible consumable product.</p>
+                            <div class="product-list-action">
+                                <button title="Add To Cart"><i class="icon-basket-loaded"></i></button>
+                                <button title="Wishlist"><i class="icon-heart"></i></button>
+                                <button title="Compare"><i class="icon-refresh"></i></button>
+                            </div>
+                        </div>
+                    </div>
 
-                                            <!-- 放在 product 区域 .row 的最后 -->
-<div id="no-record-message" style="display: none; width: 100%; text-align: center; padding: 40px;">
-    <h4>No record found.</h4>
-</div>
+                                                                <!-- 放在 product 区域 .row 的最后 -->
+                    <div id="no-record-message" style="display: none; width: 100%; text-align: center; padding: 40px;">
+                        <h4>No record found.</h4>
+                    </div>
 
                                 
  
@@ -206,8 +178,8 @@
                                 <h4 class="sidebar-widget-title">Categories </h4>
                                 <div class="shop-catigory">
                                     <ul>
-                                        <li><a href="javascript:void(0);" class="category-filter" data-category="compatible">Compatible</a></li>
-                                        <li><a href="javascript:void(0);" class="category-filter" data-category="original">Original</a></li>
+                                        <li><a href="javascript:void(0);" class="category-filter" data-category="Health Care Product">Health Care Product</a></li>
+                                        
                                     </ul>
                                 </div>
                             </div>

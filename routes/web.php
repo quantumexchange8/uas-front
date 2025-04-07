@@ -54,8 +54,17 @@ Route::get('/product_detail)', function () {
     return view('pages.product_detail');
 })->name('product_detail');  
 
+Route::get('/health_care)', function () {
+    return view('pages.health_care');
+})->name('health_care');  
 
+Route::get('/remanufactured_ink)', function () {
+    return view('pages.remanufactured_ink');
+})->name('remanufactured_ink');  
 
+Route::get('/printer_service)', function () {
+    return view('pages.printer_service');
+})->name('printer_service');  
 
 
 Route::get('/dashboard', function () {

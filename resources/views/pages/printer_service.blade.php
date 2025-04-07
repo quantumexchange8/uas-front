@@ -53,7 +53,7 @@
                         <li>
                             <a href="{{ route('homepage') }}">HOME</a></li>
                         </li>
-                        <li class="active">Consummable </li>
+                        <li class="active">Printer Service & Repair<Pweb/li>
                     </ul>
                 </div>
             </div>
@@ -95,7 +95,7 @@
                                     <div class="row">
                                         <!-- Product 1 -->
                                       <!-- 图形卡片商品 (shop-1) -->
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product-item" data-category="compatible">
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product-item" data-category="IMPACT PRINTER SERVICE & REPAIR">
     <div class="single-product-wrap mb-35">
         <div class="product-img product-img-zoom mb-15">
             <a href="product-details.html">
@@ -114,9 +114,9 @@
                 </div>
                 <span>(2)</span>
             </div>
-            <h3><a href="product-details.html">UAS Ribbon ELQ-2170/2180/2190</a></h3>
+            <h3><a href="product-details.html">Ribbon LQ-5900</a></h3>
             <div class="product-price-2">
-                <span>RM35.00</span>
+                <span>RM40.00</span>
             </div>
             <div class="pro-add-to-cart mt-10">
                 <button title="Add to Cart">Add To Cart</button>
@@ -206,8 +206,14 @@
                                 <h4 class="sidebar-widget-title">Categories </h4>
                                 <div class="shop-catigory">
                                     <ul>
-                                        <li><a href="javascript:void(0);" class="category-filter" data-category="compatible">Compatible</a></li>
-                                        <li><a href="javascript:void(0);" class="category-filter" data-category="original">Original</a></li>
+                                        <li><a href="javascript:void(0);" class="category-filter" data-category="IMPACT PRINTER SERVICE & REPAIR">IMPACT PRINTER SERVICE & REPAIR</a></li>
+                                        <li><a href="javascript:void(0);" class="category-filter" data-category="LASER PRINTER SERVICE & REPAIR">LASER PRINTER SERVICE & REPAIR</a></li>
+                                        <li><a href="javascript:void(0);" class="category-filter" data-category="INKJET PRINTER SERVICE & REPAIR">INKJET PRINTER SERVICE & REPAIR</a></li>
+                                        <li><a href="javascript:void(0);" class="category-filter" data-category="PROJECTOR SERVICE & REPAIR">PROJECTOR SERVICE & REPAIR</a></li>
+                                        <li><a href="javascript:void(0);" class="category-filter" data-category="TYPEWRITER SERVICE & REPAIR">TYPEWRITER SERVICE & REPAIR</a></li>
+                                        <li><a href="javascript:void(0);" class="category-filter" data-category="FAX SERVICE & REPAIR">FAX SERVICE & REPAIR</a></li>
+                                        <li><a href="javascript:void(0);" class="category-filter" data-category="CHECKWRITER SERVICE & REPAIR">CHECKWRITER SERVICE & REPAIR</a></li>
+                                        <li><a href="javascript:void(0);" class="category-filter" data-category="BARCODE PRINTER SERVICE & REPAIR">BARCODE PRINTER SERVICE & REPAIR</a></li>
                                     </ul>
                                 </div>
                             </div>

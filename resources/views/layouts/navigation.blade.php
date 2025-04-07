@@ -206,9 +206,10 @@
                                         <li><a href="shop.html"><i class="icon-screen-desktop"></i> Home & Entertainment</a></li>
                                         <li><a href="shop.html"><i class="icon-settings"></i> Spare Parts</a></li>
                                         <li><a href="shop.html"><i class="icon-printer"></i> Printer</a></li>
-                                        <li><a href="shop.html"><i class="icon-wrench"></i> Printer Service & Repair</a></li>
-                                        <li><a href="shop.html"><i class="icon-drop"></i> Remanufactured Ink Cartridge Services</a></li>
-                                        <li><a href="shop.html"><i class="icon-heart"></i> Health Care Products</a></li>
+                                        <li><a href="{{ route('printer_service') }}"><i class="icon-bubbles"></i> Printer Service & Repair</a></li>
+                                        <li><a href="{{ route('remanufactured_ink') }}"><i class="icon-bubbles"></i> Remanufactured Ink Cartridge Services</a></li>
+                                        <li><a href="{{ route('health_care') }}"><i class="icon-bubbles"></i> Health Care</a></li>
+
                                         <li><a href="{{ route('consummable') }}"><i class="icon-bubbles"></i> Consumables</a></li>
 
                                         

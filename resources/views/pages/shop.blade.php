@@ -1,4 +1,6 @@
 <x-app-layout>
+    
+    
 <div class="main-wrapper">
    
     <!-- Mobile menu start -->

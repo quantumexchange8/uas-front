@@ -53,7 +53,7 @@
                         <li>
                             <a href="{{ route('homepage') }}">HOME</a></li>
                         </li>
-                        <li class="active">Consummable </li>
+                        <li class="active">Remanufactured Ink Cartridge Services </li>
                     </ul>
                 </div>
             </div>
@@ -95,7 +95,8 @@
                                     <div class="row">
                                         <!-- Product 1 -->
                                       <!-- 图形卡片商品 (shop-1) -->
-<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product-item" data-category="compatible">
+                                 <!-- Canon 810 -->
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product-item" data-category="Canon Ink Cartridge Remanufactured">
     <div class="single-product-wrap mb-35">
         <div class="product-img product-img-zoom mb-15">
             <a href="product-details.html">
@@ -114,9 +115,9 @@
                 </div>
                 <span>(2)</span>
             </div>
-            <h3><a href="product-details.html">UAS Ribbon ELQ-2170/2180/2190</a></h3>
+            <h3><a href="#">Canon 810</a></h3>
             <div class="product-price-2">
-                <span>RM35.00</span>
+                <span>RM30.00</span>
             </div>
             <div class="pro-add-to-cart mt-10">
                 <button title="Add to Cart">Add To Cart</button>
@@ -124,6 +125,103 @@
         </div>
     </div>
 </div>
+
+<!-- Canon CL811 -->
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product-item" data-category="Canon Ink Cartridge Remanufactured">
+    <div class="single-product-wrap mb-35">
+        <div class="product-img product-img-zoom mb-15">
+            <a href="product-details.html">
+                <img src="assets/images/product/product-13.jpg" alt="">
+            </a>
+            <div class="product-action-2 tooltip-style-2">
+                <button title="Wishlist"><i class="icon-heart"></i></button>
+                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
+                <button title="Compare"><i class="icon-refresh"></i></button>
+            </div>
+        </div>
+        <div class="product-content-wrap-2 text-center">
+            <div class="product-rating-wrap">
+                <div class="product-rating">
+                    <i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star gray"></i>
+                </div>
+                <span>(2)</span>
+            </div>
+            <h3><a href="#">Canon CL811</a></h3>
+            <div class="product-price-2">
+                <span>RM34.00</span>
+            </div>
+            <div class="pro-add-to-cart mt-10">
+                <button title="Add to Cart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Canon 40 -->
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product-item" data-category="Canon Ink Cartridge Remanufactured">
+    <div class="single-product-wrap mb-35">
+        <div class="product-img product-img-zoom mb-15">
+            <a href="product-details.html">
+                <img src="assets/images/product/product-13.jpg" alt="">
+            </a>
+            <div class="product-action-2 tooltip-style-2">
+                <button title="Wishlist"><i class="icon-heart"></i></button>
+                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
+                <button title="Compare"><i class="icon-refresh"></i></button>
+            </div>
+        </div>
+        <div class="product-content-wrap-2 text-center">
+            <div class="product-rating-wrap">
+                <div class="product-rating">
+                    <i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star gray"></i>
+                </div>
+                <span>(2)</span>
+            </div>
+            <h3><a href="#">Canon 40</a></h3>
+            <div class="product-price-2">
+                <span>RM30.00</span>
+            </div>
+            <div class="pro-add-to-cart mt-10">
+                <button title="Add to Cart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- HP Ink Cartridge Remanufactured-->
+<!-- HP 46 Black -->
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product-item" data-category="HP Ink Cartridge Remanufactured">
+    <div class="single-product-wrap mb-35">
+        <div class="product-img product-img-zoom mb-15">
+            <a href="product-details.html">
+                <img src="assets/images/product/product-13.jpg" alt="">
+            </a>
+            <div class="product-action-2 tooltip-style-2">
+                <button title="Wishlist"><i class="icon-heart"></i></button>
+                <button title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="icon-size-fullscreen icons"></i></button>
+                <button title="Compare"><i class="icon-refresh"></i></button>
+            </div>
+        </div>
+        <div class="product-content-wrap-2 text-center">
+            <div class="product-rating-wrap">
+                <div class="product-rating">
+                    <i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star gray"></i>
+                </div>
+                <span>(2)</span>
+            </div>
+            <h3><a href="#">HP 46 Black</a></h3>
+            <div class="product-price-2">
+                <span>RM30.00</span>
+            </div>
+            <div class="pro-add-to-cart mt-10">
+                <button title="Add to Cart">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                                    
+                                    
 <!-- no record-->
 <div id="no-record-message" style="display: none; width: 100%; text-align: center; padding: 40px;">
     <h4>No record found.</h4>
@@ -131,36 +229,36 @@
 
 
                                     
-                                     
-                                    
-                                    </div>
-                                    
-                                </div>
-                                <div id="shop-2" class="tab-pane">
-                                    <div class="shop-list-wrap mb-30">
-                                        <div class="row">
-                                            <!-- Compatible product -->
-                                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product-item" data-category="compatible">
-                                                <div class="single-product-wrap mb-35">
-                                                    <h3><a href="#">UAS Ribbon ELQ-2170/2180/2190</a></h3>
-                                                    <div class="pro-list-price">
-                                                        <span class="new-price">RM35.00</span>
-                                                        <span class="old-price">RM45.00</span>
-                                                    </div>
-                                                    <div class="product-list-rating-wrap">
-                                                        <div class="product-list-rating">
-                                                            <i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star gray"></i><i class="icon_star gray"></i>
-                                                        </div>
-                                                        <span>(3)</span>
-                                                    </div>
-                                                    <p>This is a compatible consumable product.</p>
-                                                    <div class="product-list-action">
-                                                        <button title="Add To Cart"><i class="icon-basket-loaded"></i></button>
-                                                        <button title="Wishlist"><i class="icon-heart"></i></button>
-                                                        <button title="Compare"><i class="icon-refresh"></i></button>
-                                                    </div>
-                                                </div>
-                                            </div>
+        
+    
+    </div>
+    
+</div>
+<div id="shop-2" class="tab-pane">
+    <div class="shop-list-wrap mb-30">
+        <div class="row">
+            <!-- Compatible product -->
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 product-item" data-category="compatible">
+                <div class="single-product-wrap mb-35">
+                    <h3><a href="#">UAS Ribbon ELQ-2170/2180/2190</a></h3>
+                    <div class="pro-list-price">
+                        <span class="new-price">RM35.00</span>
+                        <span class="old-price">RM45.00</span>
+                    </div>
+                    <div class="product-list-rating-wrap">
+                        <div class="product-list-rating">
+                            <i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star gray"></i><i class="icon_star gray"></i>
+                        </div>
+                        <span>(3)</span>
+                    </div>
+                    <p>This is a compatible consumable product.</p>
+                    <div class="product-list-action">
+                        <button title="Add To Cart"><i class="icon-basket-loaded"></i></button>
+                        <button title="Wishlist"><i class="icon-heart"></i></button>
+                        <button title="Compare"><i class="icon-refresh"></i></button>
+                    </div>
+                </div>
+            </div>
 
                                             <!-- 放在 product 区域 .row 的最后 -->
 <div id="no-record-message" style="display: none; width: 100%; text-align: center; padding: 40px;">
@@ -206,8 +304,9 @@
                                 <h4 class="sidebar-widget-title">Categories </h4>
                                 <div class="shop-catigory">
                                     <ul>
-                                        <li><a href="javascript:void(0);" class="category-filter" data-category="compatible">Compatible</a></li>
-                                        <li><a href="javascript:void(0);" class="category-filter" data-category="original">Original</a></li>
+                                        <li><a href="javascript:void(0);" class="category-filter" data-category="Canon Ink Cartridge Remanufactured">Canon Ink Cartridge Remanufactured</a></li>
+                                        <li><a href="javascript:void(0);" class="category-filter" data-category="HP Ink Cartridge Remanufactured">HP Ink Cartridge Remanufactured</a></li>
+                                        <li><a href="javascript:void(0);" class="category-filter" data-category="Canon 40">Canon 40</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -496,42 +595,41 @@
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const categoryLinks = document.querySelectorAll(".category-filter");
-            const allProductTabs = document.querySelectorAll(".tab-pane");
             const tab1 = document.getElementById("shop-1");
-            const tab2 = document.getElementById("shop-2");
             const noRecord = document.getElementById("no-record-message");
-        
+    
             categoryLinks.forEach(link => {
                 link.addEventListener("click", function () {
                     const selectedCategory = this.getAttribute("data-category");
-                    let hasVisibleProduct = false;
-        
-                    // 切换到图形卡片 tab（tab1）
-                    allProductTabs.forEach(tab => tab.classList.remove("active", "show"));
-                    tab1.classList.add("active", "show");
-        
-                    // 过滤 tab1 中的商品
                     const productItems = tab1.querySelectorAll(".product-item");
+                    let hasVisibleProduct = false;
+    
                     productItems.forEach(item => {
-                        if (item.getAttribute("data-category") === selectedCategory) {
-                            item.style.display = "block";
+                        const category = item.getAttribute("data-category");
+                        const productName = item.querySelector("h3")?.textContent || "";
+    
+                        const match = (
+                            category === selectedCategory ||
+                            (selectedCategory === "Canon 40" && productName.includes("Canon 40"))
+                        );
+    
+                        item.style.display = match && selectedCategory !== "Canon 40" ? "block" : "none";
+    
+                        if (match && selectedCategory !== "Canon 40") {
                             hasVisibleProduct = true;
-                        } else {
-                            item.style.display = "none";
                         }
                     });
-        
-                    // 显示/隐藏“无记录”
+    
                     noRecord.style.display = hasVisibleProduct ? "none" : "block";
                 });
             });
-        
-            // 默认显示 compatible 分类
-            const defaultCategory = "compatible";
-            const defaultLink = document.querySelector(`.category-filter[data-category="${defaultCategory}"]`);
+    
+            // Default load: show Canon Ink Cartridge Remanufactured
+            const defaultLink = document.querySelector('.category-filter[data-category="Canon Ink Cartridge Remanufactured"]');
             if (defaultLink) defaultLink.click();
         });
-        </script>
+    </script>
+    
         
     </x-app-layout>
    

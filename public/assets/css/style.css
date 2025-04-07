@@ -17655,3 +17655,16 @@ h3.cart-page-title {
 .order-tracking-content .order-tracking-form .order-track-btn a:hover {
   background-color: #ff2f2f;
 }
+.shorting-style select {
+  padding: 6px 10px;
+  min-width: 80px; /* Ensure minimum width */
+  max-width: 120px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  appearance: auto;
+}
+.shorting-style label {
+  margin-right: 5px;
+  font-weight: 500;
+}
