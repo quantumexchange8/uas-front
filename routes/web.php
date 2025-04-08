@@ -66,6 +66,19 @@ Route::get('/printer_service)', function () {
     return view('pages.printer_service');
 })->name('printer_service');  
 
+Route::get('/printer)', function () {
+    return view('pages.printer');
+})->name('printer');  
+
+Route::get('/spare)', function () {
+    return view('pages.spare');
+})->name('spare');  
+
+Route::get('/home_entertainment)', function () {
+    return view('pages.home_entertainment');
+})->name('home_entertainment'); 
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

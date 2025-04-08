@@ -203,13 +203,12 @@
                             <div class="category-menu-2 category-menu-2-blue categori-hide categori-not-visible-2">
                                 <nav>
                                     <ul>
-                                        <li><a href="shop.html"><i class="icon-screen-desktop"></i> Home & Entertainment</a></li>
-                                        <li><a href="shop.html"><i class="icon-settings"></i> Spare Parts</a></li>
-                                        <li><a href="shop.html"><i class="icon-printer"></i> Printer</a></li>
+                                        <li><a href="{{ route('home_entertainment') }}"><i class="icon-bubbles"></i> Home & Entertainment</a></li>
+                                        <li><a href="{{ route('spare') }}"><i class="icon-bubbles"></i> Spare Parts</a></li>
+                                        <li><a href="{{ route('printer') }}"><i class="icon-bubbles"></i> Printer</a></li>
                                         <li><a href="{{ route('printer_service') }}"><i class="icon-bubbles"></i> Printer Service & Repair</a></li>
                                         <li><a href="{{ route('remanufactured_ink') }}"><i class="icon-bubbles"></i> Remanufactured Ink Cartridge Services</a></li>
                                         <li><a href="{{ route('health_care') }}"><i class="icon-bubbles"></i> Health Care</a></li>
-
                                         <li><a href="{{ route('consummable') }}"><i class="icon-bubbles"></i> Consumables</a></li>
 
                                         
@@ -224,9 +223,7 @@
                             <nav>
                                 <ul>
                                     <li><a href="{{ route('homepage') }}">HOME</a></li>
-                                       
-                                
-                                    <li><a href="{{ route('shop') }}">SHOP</a></li>
+
                                           
             
                                     <li><a href="{{ route('about') }}">ABOUT US</a></li>
