@@ -100,12 +100,7 @@
                         <div id="no-record-message" style="display: none; width: 100%; text-align: center; padding: 40px;">
                             <h4>No record found.</h4>
                         </div>
-
-
-                                    
-                                     
-                                    
-                        </div>
+                         </div>
                                     
         </div>
         <div id="shop-2" class="tab-pane">
@@ -141,15 +136,15 @@
 
                                 
  
-                                        </div>
-                                
-                                        <!-- No records message -->
-                                        <div class="no-records text-center mt-3" style="display: none;">
-                                            <p><strong>No records found</strong></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                
+                            </div>
+                    
+                            <!-- No records message -->
+                            <div class="no-records text-center mt-3" style="display: none;">
+                                <p><strong>No records found</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    
                             </div>
                             <div class="pro-pagination-style text-center mt-10">
                                 <ul>

@@ -6733,6 +6733,8 @@ textarea:focus {
 .hm10-hero-slider-img img {
   width: 100%;
 }
+
+
 @media only screen and (max-width: 767px) {
   .hm10-hero-slider-img img {
     display: inline-block;

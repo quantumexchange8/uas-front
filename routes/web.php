@@ -15,10 +15,6 @@ Route::get('/contact', function () {
     return view('pages.contact');
 })->name('contact');  
 
-Route::get('/consummable', function () {
-    return view('pages.consummable');
-})->name('consummable');  
-
 
 Route::get('/login_register)', function () {
     return view('pages.login_register');
@@ -77,6 +73,10 @@ Route::get('/spare)', function () {
 Route::get('/home_entertainment)', function () {
     return view('pages.home_entertainment');
 })->name('home_entertainment'); 
+
+Route::get('/consummable', function () {
+    return view('pages.consummable');
+})->name('consummable');  
 
 
 

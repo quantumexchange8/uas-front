@@ -89,7 +89,7 @@
 
                 <!-- Contact Us Section -->
                 <div class="col-lg-3 col-md-4 col-sm-12 col-12">
-                    <div class="footer-widget mb-40">
+                    <div class="footer-widget mb-10">
                         <h3 class="footer-title">CONTACT US</h3>
                         <div class="contact-info-2">
                             <div class="single-contact-info-2">
@@ -146,7 +146,9 @@
         <div class="container">
             <div class="row flex-row-reverse">
                 <div class="col-lg-6 col-md-6">
-                    <div class="payment-img payment-img-right">
+                    <div class="payment-img payment-img-right" style="display: flex; gap: 10px; align-items: center; justify-content: flex-end;">
+
+
                         <a href="#"><img src="assets/images/icon-img/mastercard.png" alt=""></a>
                         <a href="#"><img src="assets/images/icon-img/visa.png" alt=""></a>
                         <a href="#"><img src="assets/images/icon-img/maestro.png" alt=""></a>

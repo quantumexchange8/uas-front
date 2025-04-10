@@ -35,7 +35,8 @@
                         </div>
                         <div class="col-lg-7 col-md-7 col-12 col-sm-6">
                             <div class="hm9-hero-slider-img">
-                                <img class="animated" src="assets/images/slider/printerBanner.jpg" alt="">
+                                <img class="animated img-fluid w-100" src="assets/images/slider/printerBanner.jpg" alt="Printer Banner">
+
                             </div>
                         </div>
                     </div>
@@ -149,92 +150,153 @@
                 </div>
             </div>
         </div>
-        <div class="product-categories-area pb-20">
-            <div class="container">
-                <div class="section-title-6 section-title-6-xs mt-20 mb-20 text-center">
-                    <h2>Popular Categories</h2>
-                </div>
-                <div class="d-flex flex-wrap justify-content-center gap-12 category-row">
-    
-                    <!-- Category 1 -->
-                    <div class="text-center">
-                        <div class="category-circle">
-                            <a href="shop.html">
-                                <img src="assets/images/CHome.png" alt="Home & Entertainment">
-                              
-                            </a>
-                        </div>
-                        <p class="mt-2">Home & Entertainment</p>
-                    </div>
-        
-                    <!-- Category 2 -->
-                    <div class="text-center">
-                        <div class="category-circle">
-                            <a href="shop.html">
-                                <img src="assets/images/CSpare.png" alt="Spare Parts">
-                               
-                            </a>
-                        </div>
-                        <p class="mt-2">Spare Parts</p>
-                    </div>
-        
-                    <!-- Category 3 -->
-                    <div class="text-center">
-                        <div class="category-circle">
-                            <a href="shop.html">
-                                <img src="assets/images/CPrinter.png" alt="Printer">
-                                
-                            </a>
-                        </div>
-                        <p class="mt-2">Printer</p>
-                    </div>
-        
-                    <!-- Category 4 -->
-                    <div class="text-center">
-                        <div class="category-circle">
-                            <a href="shop.html">
-                                <img src="assets/images/CPrinterService.png" alt="Printer Service">
-                                
-                            </a>
-                        </div>
-                        <p class="mt-2">Printer Service</p>
-                    </div>
-        
-                    <!-- Category 5 -->
-                    <div class="text-center">
-                        <div class="category-circle">
-                            <a href="shop.html">
-                                <img src="assets/images/CRemanufactured.png" alt="Ink Cartridge">
-                              
-                            </a>
-                        </div>
-                        <p class="mt-2">Ink Cartridge</p>
-                    </div>
-        
-                    <!-- Category 6 -->
-                    <div class="text-center">
-                        <div class="category-circle">
-                            <a href="shop.html">
-                                <img src="assets/images/CHealthCare.png" alt="Health Care">
-                               
-                            </a>
-                        </div>
-                        <p class="mt-2">Health Care</p>
-                    </div>
-        
-                    <!-- Category 7 -->
-                    <div class="text-center">
-                        <div class="category-circle">
-                            <a href="shop.html">
-                                <img src="assets/images/CConsummable.png" alt="Consumables">
-                               
-                            </a>
-                        </div>
-                        <p class="mt-2">Consumables</p>
-                    </div>
-                </div>
-            </div>
+      <!-- Include AOS for scroll animation (optional but cool) -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<!-- Styles for popular category -->
+<style>
+    /* Full width container for larger layouts */
+.category-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* Title section */
+.section-title-6 h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #222;
+}
+
+.section-subtext {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Responsive flex row */
+.category-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 20px 0;
+}
+
+/* Each item scales nicely */
+.category-item {
+    flex: 1 1 160px;
+    max-width: 200px;
+    text-align: center;
+}
+
+/* Circle icons */
+.category-circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.category-circle:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.category-circle img {
+    max-width: 75%;
+    max-height: 75%;
+    object-fit: contain;
+}
+
+/* Label text */
+.category-item p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 12px;
+    color: #333;
+}
+
+/* Divider under section */
+.category-divider {
+    width: 80%;
+    margin: 40px auto 0;
+    border-top: 1px solid #ddd;
+}
+
+/* Mobile-friendly */
+@media (max-width: 768px) {
+    .category-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .category-circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .category-circle img {
+        max-width: 65%;
+        max-height: 65%;
+    }
+}
+
+</style>
+
+<!-- Popular Categories Section -->
+<div class="product-categories-area pb-20">
+    <div class="container">
+        <div class="section-title-6 text-center mt-20 mb-10">
+            <h2>Popular Categories</h2>
+            <p class="section-subtext">Choose a category to explore our products</p>
         </div>
+
+        <div class="d-flex justify-content-center category-row">
+
+           @php
+    $categories = [
+        ['img' => 'CHome.png', 'name' => 'Home & Entertainment', 'url' => route('home_entertainment')],
+        ['img' => 'CSpare.png', 'name' => 'Spare Parts', 'url' => url('/spare')],
+        ['img' => 'CPrinter.png', 'name' => 'Printer', 'url' => url('/printer')],
+        ['img' => 'CPrinterService.png', 'name' => 'Printer Service', 'url' => url('/printer_service')],
+        ['img' => 'CRemanufactured.png', 'name' => 'Ink Cartridge', 'url' => url('/ink')],
+        ['img' => 'CHealthCare.png', 'name' => 'Health Care', 'url' => url('/healthcare')],
+        ['img' => 'CConsummable.png', 'name' => 'Consumables', 'url' => url('/consummable')],
+    ];
+@endphp
+
+
+            @foreach($categories as $index => $category)
+                <div class="text-center mx-3 mb-4" data-aos="fade-up" data-aos-delay="{{ $index * 100 }}">
+                    <a href="{{ url('shop') }}" title="Browse {{ $category['name'] }}">
+                        <div class="category-circle">
+                            <img src="{{ asset('assets/images/' . $category['img']) }}" alt="{{ $category['name'] }}">
+                        </div>
+                        <p>{{ $category['name'] }}</p>
+                    </a>
+                </div>
+            @endforeach
+
+        </div>
+
+        <!-- Optional Divider -->
+        <hr style="width: 80%; margin: 40px auto 0; border-top: 1px solid #ddd;">
+    </div>
+</div>
+
         
         
     <div class="product-area mt-0 mb-20">
