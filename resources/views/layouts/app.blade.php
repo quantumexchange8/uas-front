@@ -26,7 +26,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans antialiased">
-        <div class="min-h-screen main-wrapper">
+        <div class="main-wrapper">
             @include('layouts.navigation')
 
             <!-- Page Heading -->
@@ -43,8 +43,7 @@
                 {{ $slot }} <!-- This is where the page content will be inserted -->
             </main>
 
-            <div class="min-h-screen main-wrapper">
-                @include('layouts.footer')
+            @include('layouts.footer')
     
         </div>
 
@@ -66,6 +65,7 @@
         <script src="{{ asset('assets/js/plugins/easyzoom.js') }}"></script>
         <script src="{{ asset('assets/js/plugins/scrollup.js') }}"></script>
         <script src="{{ asset('assets/js/plugins/ajax-mail.js') }}"></script>
+        
 
 
         <!-- Main JS -->

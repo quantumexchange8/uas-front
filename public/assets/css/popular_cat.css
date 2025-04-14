@@ -1,0 +1,96 @@
+/* === popular-categories.css === */
+
+/* Full width container for larger layouts */
+.category-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+/* Title section */
+.section-title-6 h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #222;
+}
+
+.section-subtext {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Responsive flex row */
+.category-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding: 20px 0;
+}
+
+/* Each item scales nicely */
+.category-item {
+    flex: 1 1 160px;
+    max-width: 200px;
+    text-align: center;
+}
+
+/* Circle icons */
+.category-circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.category-circle:hover {
+    transform: scale(1.08);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.category-circle img {
+    max-width: 75%;
+    max-height: 75%;
+    object-fit: contain;
+}
+
+/* Label text */
+.category-item p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 12px;
+    color: #333;
+}
+
+/* Divider under section */
+.category-divider {
+    width: 80%;
+    margin: 40px auto 0;
+    border-top: 1px solid #ddd;
+}
+
+/* Mobile-friendly */
+@media (max-width: 768px) {
+    .category-item {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .category-circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .category-circle img {
+        max-width: 65%;
+        max-height: 65%;
+    }
+}

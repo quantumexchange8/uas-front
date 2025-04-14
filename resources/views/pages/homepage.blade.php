@@ -1,101 +1,90 @@
 <x-app-layout>
-    <div class="slider-area bg-gray-8">
-        <div class="container">
-            <div class="hero-slider-active-2 nav-style-1 nav-style-1-modify-2 nav-style-1-blue">
-                <div class="single-hero-slider single-hero-slider-hm9 single-animation-wrap">
-                    <div class="row slider-animated-1">
-                        <div class="col-lg-5 col-md-5 col-12 col-sm-6">
-                            <div class="hero-slider-content-6 slider-content-hm9">
-                                <h5 class="animated">New Arrivals</h5>
-                                <h1 class="animated">Home Secure <br>camera</h1>
-                                <p class="animated">Prodctect your house with home secure wifi camere indoor/outdoor</p>
-                                <div class="btn-style-1">
-                                    <a class="animated btn-1-padding-4 btn-1-blue btn-1-font-14" href="product-details.html">Explore Now</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-7 col-md-7 col-12 col-sm-6">
-                            <div class="hm9-hero-slider-img">
-                                <img class="animated" src="assets/images/slider/printerBanner.jpg" alt="">
+  <!-- Slider Section -->
+  <div class="slider-area bg-gray-8">
+    <div class="container">
+        <div class="hero-slider-active-2 nav-style-1 nav-style-1-modify-2 nav-style-1-blue">
+            <div class="single-hero-slider single-hero-slider-hm9 single-animation-wrap">
+                <div class="row slider-animated-1 align-items-center">
+                    <div class="col-lg-5 col-md-5 col-12 col-sm-6">
+                        <div class="hero-slider-content-6 slider-content-hm9" style="padding-bottom: 80px;">
+                            <h5 class="animated">New Arrivals</h5>
+                            <h1 class="animated">Home Secure <br>Camera</h1>
+                            <p class="animated">Protect your house with home secure WiFi camera for indoor/outdoor use.</p>
+                            <div class="btn-style-1 mt-3">
+                                <a href="product-details.html"
+                                   class="animated btn-1-padding-4 btn-1-blue btn-1-font-14"
+                                   style="padding: 10px 20px; background-color: #007bff; color: white; border-radius: 5px; font-size: 14px; text-decoration: none; display: inline-block;">
+                                    Explore Now
+                                </a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="single-hero-slider single-hero-slider-hm9 single-animation-wrap">
-                    <div class="row slider-animated-1">
-                        <div class="col-lg-5 col-md-5 col-12 col-sm-6">
-                            <div class="hero-slider-content-6 slider-content-hm9">
-                                <h5 class="animated">New Arrivals</h5>
-                                <h1 class="animated">Home Secure <br>camera</h1>
-                                <p class="animated">Prodctect your house with home secure wifi camere indoor/outdoor</p>
-                                <div class="btn-style-1">
-                                    <a class="animated btn-1-padding-4 btn-1-blue btn-1-font-14" href="product-details.html">Explore Now</a>
-                                </div>
-                            </div>
+                    <div class="col-lg-7 col-md-7 col-12 col-sm-6">
+                        <div class="hm9-hero-slider-img text-center">
+                            <img src="{{ asset('assets/images/slider/printerBanner.jpg') }}" alt="Home Secure Camera Banner"
+                                 class="animated img-fluid" style="max-height: 400px; object-fit: cover;">
                         </div>
-                        <div class="col-lg-7 col-md-7 col-12 col-sm-6">
-                            <div class="hm9-hero-slider-img">
-                                <img class="animated img-fluid w-100" src="assets/images/slider/printerBanner.jpg" alt="Printer Banner">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-                            </div>
+<!-- Service Section -->
+<div class="service-area" style="margin-top: 30px;">
+    <div class="container">
+        <div class="service-wrap service-wrap-hm9">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="single-service-wrap text-center">
+                        <div class="service-icon service-icon-blue mb-3">
+                            <i class="icon-cursor"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Free Shipping</h3>
+                            <span>Orders over $100</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="single-service-wrap text-center">
+                        <div class="service-icon service-icon-blue mb-3">
+                            <i class="icon-reload"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Free Returns</h3>
+                            <span>Within 30 days</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="single-service-wrap text-center">
+                        <div class="service-icon service-icon-blue mb-3">
+                            <i class="icon-lock"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>100% Secure</h3>
+                            <span>Payment Online</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div class="single-service-wrap text-center">
+                        <div class="service-icon service-icon-blue mb-3">
+                            <i class="icon-tag"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Best Price</h3>
+                            <span>Guaranteed</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="service-area">
-        <div class="container">
-            <div class="service-wrap service-wrap-hm9">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="single-service-wrap mb-30">
-                            <div class="service-icon service-icon-blue">
-                                <i class="icon-cursor"></i>
-                            </div>
-                            <div class="service-content">
-                                <h3>Free Shipping</h3>
-                                <span>Orders over $100</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="single-service-wrap mb-30">
-                            <div class="service-icon service-icon-blue">
-                                <i class="icon-reload"></i>
-                            </div>
-                            <div class="service-content">
-                                <h3>Free Returns</h3>
-                                <span>Within 30 days</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="single-service-wrap mb-30">
-                            <div class="service-icon service-icon-blue">
-                                <i class="icon-lock"></i>
-                            </div>
-                            <div class="service-content">
-                                <h3>100% Secure</h3>
-                                <span>Payment Online</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                        <div class="single-service-wrap mb-30">
-                            <div class="service-icon service-icon-blue">
-                                <i class="icon-tag"></i>
-                            </div>
-                            <div class="service-content">
-                                <h3>Best Price</h3>
-                                <span>Guaranteed</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+</div>
+
     <div class="about-us-area pt-20 pb-20">
         <div class="container">
             <div class="about-us-content-3 text-center">
@@ -157,104 +146,7 @@
     AOS.init();
 </script>
 
-<!-- Styles for popular category -->
-<style>
-    /* Full width container for larger layouts */
-.category-wrapper {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 30px;
-}
-
-/* Title section */
-.section-title-6 h2 {
-    font-size: 28px;
-    font-weight: 700;
-    color: #222;
-}
-
-.section-subtext {
-    font-size: 15px;
-    color: #666;
-    margin-bottom: 30px;
-}
-
-/* Responsive flex row */
-.category-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 24px;
-    padding: 20px 0;
-}
-
-/* Each item scales nicely */
-.category-item {
-    flex: 1 1 160px;
-    max-width: 200px;
-    text-align: center;
-}
-
-/* Circle icons */
-.category-circle {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 2px solid #eee;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-}
-
-.category-circle:hover {
-    transform: scale(1.08);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.category-circle img {
-    max-width: 75%;
-    max-height: 75%;
-    object-fit: contain;
-}
-
-/* Label text */
-.category-item p {
-    font-size: 16px;
-    font-weight: 500;
-    margin-top: 12px;
-    color: #333;
-}
-
-/* Divider under section */
-.category-divider {
-    width: 80%;
-    margin: 40px auto 0;
-    border-top: 1px solid #ddd;
-}
-
-/* Mobile-friendly */
-@media (max-width: 768px) {
-    .category-item {
-        flex: 1 1 100%;
-        max-width: 100%;
-    }
-
-    .category-circle {
-        width: 100px;
-        height: 100px;
-    }
-
-    .category-circle img {
-        max-width: 65%;
-        max-height: 65%;
-    }
-}
-
-</style>
+<link rel="stylesheet" href="{{ asset('assets/css/popular_cat.css') }}">
 
 <!-- Popular Categories Section -->
 <div class="product-categories-area pb-20">
