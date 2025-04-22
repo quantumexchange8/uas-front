@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="{{ asset('assets/css/plugins/magnific-popup.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/css/plugins/jquery-ui.css') }}">
         <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+        
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])

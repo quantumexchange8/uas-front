@@ -7,9 +7,9 @@
                 <div class="row slider-animated-1 align-items-center">
                     <div class="col-lg-5 col-md-5 col-12 col-sm-6">
                         <div class="hero-slider-content-6 slider-content-hm9" style="padding-bottom: 80px;">
-                            <h5 class="animated">New Arrivals</h5>
-                            <h1 class="animated">Home Secure <br>Camera</h1>
-                            <p class="animated">Protect your house with home secure WiFi camera for indoor/outdoor use.</p>
+                            <h5 class="animated">Now Available</h5>
+                            <h1 class="animated">PRINTER &<br> REPAIR SOLUTIONS</h1>
+                            <p class="animated">Your one-stop solution for printer repair and support.</p>
                             <div class="btn-style-1 mt-3">
                                 <a href="product-details.html"
                                    class="animated btn-1-padding-4 btn-1-blue btn-1-font-14"
